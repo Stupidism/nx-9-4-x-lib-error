@@ -15,7 +15,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@test-abs/use-axios": ["libs/use-axios/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
